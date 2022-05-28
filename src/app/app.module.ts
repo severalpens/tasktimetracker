@@ -17,6 +17,8 @@ import { TableComponent } from './table/table.component';
 import { FooterComponent } from './footer/footer.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { RecordsComponent } from './records/records.component';
+import { PageComponent } from './page/page.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { RecordsComponent } from './records/records.component';
     TableComponent,
     FooterComponent,
     TasksComponent,
-    RecordsComponent
+    RecordsComponent,
+    PageComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,

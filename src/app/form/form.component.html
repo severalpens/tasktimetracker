@@ -1,1 +1,58 @@
-<p>form works!</p>
+
+      <form className="flex flex-col gap-8 w-96" onSubmit={this.handleSubmit} >
+          <select className="
+                form-control
+                block
+                w-full
+                px-3
+                py-1.5
+                text-base
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-gray-300
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700
+                focus:bg-white 
+                focus:border-blue-600 
+                focus:outline-none
+                "
+            id="selectParent"
+            name="selectParent"
+            value={this.state.parentId}
+            onChange={this.handleParentChange}
+          >
+              {parentOptions}
+          </select>
+        <input
+          id="inputName"
+          type="text"
+          className="
+                    form-control
+                    block
+                    w-full
+                    px-3
+                    py-1.5
+                    text-base
+                    font-normal
+                    text-gray-700
+                    bg-white bg-clip-padding
+                    border border-solid border-gray-300
+                    rounded
+                    transition
+                    ease-in-out
+                    m-0
+                    focus:text-gray-700
+                    focus:bg-white 
+                    focus:border-blue-600 
+                    focus:outline-none
+                    min-w-min
+                  "
+          onChange={this.handleChange}
+        />
+        <button type="submit" className="border px-3 w-32 py-1.5 border-black rounded-md">Submit</button>
+
+      </form>
