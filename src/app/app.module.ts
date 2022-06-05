@@ -17,8 +17,8 @@ import { TableComponent } from './table/table.component';
 import { FooterComponent } from './footer/footer.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { RecordsComponent } from './records/records.component';
-import { PageComponent } from './page/page.component';
 import { LayoutComponent } from './layout/layout.component';
+import { Template1Component } from './template1/template1.component';
 
 @NgModule({
   declarations: [
@@ -37,8 +37,8 @@ import { LayoutComponent } from './layout/layout.component';
     FooterComponent,
     TasksComponent,
     RecordsComponent,
-    PageComponent,
-    LayoutComponent
+    LayoutComponent,
+    Template1Component
   ],
   imports: [
     BrowserModule,

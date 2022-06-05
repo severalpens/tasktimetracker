@@ -15,7 +15,7 @@ for (const file of files) {
       return console.log(err);
     }
     var result = data
-    .replace(/className/g, 'class')
+    .replace(/class/g, 'class')
     .replace(/NavLink/g, 'a')
     .replace(/to=/g, 'routerLink=');
 

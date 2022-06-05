@@ -1,6 +1,6 @@
 
-      <form className="flex flex-col gap-8 w-96" onSubmit={this.handleSubmit} >
-          <select className="
+      <form class="flex flex-col gap-8 w-96">
+          <select class="
                 form-control
                 block
                 w-full
@@ -22,15 +22,12 @@
                 "
             id="selectParent"
             name="selectParent"
-            value={this.state.parentId}
-            onChange={this.handleParentChange}
           >
-              {parentOptions}
           </select>
         <input
           id="inputName"
           type="text"
-          className="
+          class="
                     form-control
                     block
                     w-full
@@ -51,8 +48,7 @@
                     focus:outline-none
                     min-w-min
                   "
-          onChange={this.handleChange}
         />
-        <button type="submit" className="border px-3 w-32 py-1.5 border-black rounded-md">Submit</button>
+        <button type="submit" class="border px-3 w-32 py-1.5 border-black rounded-md">Submit</button>
 
       </form>
